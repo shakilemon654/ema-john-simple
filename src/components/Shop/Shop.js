@@ -9,8 +9,6 @@ const Shop = () => {
     const [cart, setCart] = useState([]);
 
     const handleAddToCart = (product) => {
-        // console.log(product);
-        
         setCart(cart => [...cart, product]);
         console.log("cart", cart);
     }
