@@ -1,0 +1,15 @@
+input {
+    @apply w-full border rounded border-gray-500 p-2;
+}
+input:focus {
+    @apply outline-none border-rose-200;
+}
+label {
+    @apply text-gray-500;
+}
+button {
+    @apply border rounded p-2 w-full text-white tracking-wide font-medium text-base;
+}
+form {
+    @apply border border-gray-500 rounded-md p-6;
+}
